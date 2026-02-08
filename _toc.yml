@@ -1,0 +1,10 @@
+# Jupyter Book 目录配置
+# 使用中文版 Notebook
+# 测试部署：只包含第一章和第二章
+
+format: jb-book
+root: index
+chapters:
+  - file: notebooks/zh-Hans/Chapter_01_私钥与地址
+  - file: notebooks/zh-Hans/Chapter_02_Bitcoin_Script_基础
+

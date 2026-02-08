@@ -1,0 +1,41 @@
+# Jupyter Book Configuration — Mastering Taproot Interactive
+
+title: Mastering Taproot — Interactive Labs
+author: aaron-recompile
+language: zh-Hans
+
+sphinx:
+  config:
+    exclude_patterns:
+      - ".git/**"
+      - ".ipynb_checkpoints/**"
+      - "_build/**"
+      - ".jupyter_cache/**"
+      - "notebooks/en/**"
+      - "**/*.pyc"
+      - "**/__pycache__/**"
+
+html:
+  baseurl: ""
+  home_page_in_navbar: true
+  use_edit_page_button: false
+  use_repository_button: true
+  use_issues_button: true
+  logo: ""
+
+execute:
+  execute_notebooks: "off"
+  timeout: 60
+  allow_errors: false
+
+parse:
+  myst_enable_extensions:
+    - colon_fence
+  myst_url_schemes: ["http", "https", "mailto"]
+
+launch_buttons:
+  notebook_interface: "jupyterlab"
+
+repository:
+  url: https://github.com/aaron-recompile/mastering-taproot-interactive
+  branch: main

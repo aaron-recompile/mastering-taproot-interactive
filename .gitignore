@@ -1,0 +1,23 @@
+# Jupyter Book build output
+_build/
+.jupyter_cache/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Python
+venv/
+env/
+.venv/
+*.pyc
+__pycache__/
+*.py[cod]
+*$py.class
+
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Local dev scripts
+activate_env.sh
