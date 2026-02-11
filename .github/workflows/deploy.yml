@@ -47,15 +47,11 @@ jobs:
           echo "Checking notebooks:"
           ls -la notebooks/zh-Hans/Chapter_0*.ipynb 2>&1 || echo "Notebooks not found"
           echo ""
-          echo "=== Running jupyter-book build ==="
+          echo "=== Cleaning and building ==="
           set -x
-          # Use --all to rebuild all pages
-          jupyter-book build . --all || {
-            echo "Build failed with exit code: $?"
-            echo "Last 50 lines of output:"
-            tail -50
-            exit 1
-          }
+          set -o pipefail
+          jupyter-book clean . --all 2>/dev/null || true
+          jupyter-book build . --all -v 2>&1 | tee build.log || { echo "========== Full build log =========="; cat build.log; exit 1; }
           set +x
           echo ""
           echo "=== Build completed, checking output ==="
