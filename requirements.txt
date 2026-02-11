@@ -1,0 +1,13 @@
+# Mastering Taproot Interactive — Notebook 依赖
+# Ch01–Ch04: bitcoin-utils (Legacy/P2SH/SegWit)
+# Ch05–Ch08: btcaaron (Taproot 语义 API，代码大幅简化)
+#
+# 推荐安装步骤（btcaaron 使用本地最新版）:
+#   conda activate bitcoin_course
+#   pip install -e /Users/aaronzhang/codes_401/btcaaron
+#   pip install -r requirements.txt
+#
+# 若无本地 btcaaron，可: pip install btcaaron
+
+bitcoin-utils>=0.7.0
+btcaaron>=0.1.0

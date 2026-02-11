@@ -1,10 +1,17 @@
 # Jupyter Book 目录配置
-# 使用中文版 Notebook
-# 测试部署：只包含第一章和第二章
+# 使用中文版 Notebook，前 8 章完整发布
 
 format: jb-book
 root: index
+options:
+  numbered: false   # 使用标题内手写编号（2.1、5.1、8.1 等），关闭自动编号避免叠加
 chapters:
   - file: notebooks/zh-Hans/Chapter_01_私钥与地址
   - file: notebooks/zh-Hans/Chapter_02_Bitcoin_Script_基础
+  - file: notebooks/zh-Hans/Chapter_03_P2SH_脚本工程
+  - file: notebooks/zh-Hans/Chapter_04_构建_SegWit_交易
+  - file: notebooks/zh-Hans/Chapter_05_Taproot_演进
+  - file: notebooks/zh-Hans/Chapter_06_构建真实_Taproot_合约
+  - file: notebooks/zh-Hans/Chapter_07_Taproot_双叶脚本树
+  - file: notebooks/zh-Hans/Chapter_08_四叶_Taproot_脚本树
 
