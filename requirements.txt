@@ -11,3 +11,4 @@
 
 bitcoin-utils>=0.7.0
 btcaaron>=0.1.0
+# Binder: force rebuild for btcaaron 0.2.1
