@@ -2,9 +2,9 @@
 
 ![Cover](images/cover.jpg)
 
-A runnable, reproducible guide to Bitcoin Taproot for developers
+The interactive companion to [*Mastering Taproot*](https://leanpub.com/mastering-taproot) — a runnable, reproducible guide to Bitcoin Taproot for developers.
 
-With complete Python code examples and real testnet transaction verification
+Complete Python code examples and real testnet transaction verification
 
 
 ---

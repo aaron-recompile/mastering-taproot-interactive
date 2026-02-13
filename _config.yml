@@ -6,12 +6,19 @@ language: en
 
 sphinx:
   config:
+    html_static_path: ["_static"]
+    html_css_files: ["custom.css"]
     exclude_patterns:
       - ".git/**"
       - ".ipynb_checkpoints/**"
       - "_build/**"
       - ".jupyter_cache/**"
       - "notebooks/zh-Hans/**"
+      - "book/**"
+      - "scripts/**"
+      - "README.md"
+      - "notebooks/README.md"
+      - "examples/README.md"
       - "**/*.pyc"
       - "**/__pycache__/**"
 

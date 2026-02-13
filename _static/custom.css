@@ -1,0 +1,10 @@
+/* Fix right-side TOC scroll spy highlighting wrong section
+   See: https://github.com/executablebooks/sphinx-book-theme/issues/607
+   When clicking a section, scroll-margin-top ensures the target scrolls
+   fully into view so the IntersectionObserver highlights correctly. */
+section {
+  scroll-margin-top: 100px;
+}
+.bd-content section {
+  scroll-margin-top: 100px;
+}
