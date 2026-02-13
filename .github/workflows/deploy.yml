@@ -45,7 +45,7 @@ jobs:
           ls -la _config.yml _toc.yml index.md 2>&1 || echo "Some config files missing"
           echo ""
           echo "Checking notebooks:"
-          ls -la notebooks/zh-Hans/Chapter_0*.ipynb 2>&1 || echo "Notebooks not found"
+          ls -la notebooks/en/Chapter_0*.ipynb 2>&1 || echo "Notebooks not found"
           echo ""
           echo "=== Cleaning and building ==="
           set -x

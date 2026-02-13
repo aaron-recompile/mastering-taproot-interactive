@@ -1,15 +1,14 @@
-# Mastering Taproot - 精通比特币脚本编程
+# Mastering Taproot — Interactive Labs
 
-![封面](images/cover.jpg)
+![Cover](images/cover.jpg)
 
-面向开发者的能运行、可复现的 Bitcoin Taproot 完整指南
+A runnable, reproducible guide to Bitcoin Taproot for developers
 
-含完整的 Python 代码示例和真实测试网交易验证
+With complete Python code examples and real testnet transaction verification
 
 
 ---
 
-## 开始学习
+## Start Learning
 
-👉 **[第一章：私钥、公钥与地址编码](notebooks/zh-Hans/Chapter_01_私钥与地址)**
-
+👉 **[Chapter 1: Private Keys, Public Keys, and Address Encoding](notebooks/en/Chapter_01_Private_Keys)**

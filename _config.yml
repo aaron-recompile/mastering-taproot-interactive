@@ -2,7 +2,7 @@
 
 title: Mastering Taproot — Interactive Labs
 author: aaron-recompile
-language: zh-Hans
+language: en
 
 sphinx:
   config:
@@ -11,7 +11,7 @@ sphinx:
       - ".ipynb_checkpoints/**"
       - "_build/**"
       - ".jupyter_cache/**"
-      - "notebooks/en/**"
+      - "notebooks/zh-Hans/**"
       - "**/*.pyc"
       - "**/__pycache__/**"
 

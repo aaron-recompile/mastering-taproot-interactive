@@ -1,17 +1,16 @@
-# Jupyter Book 目录配置
-# 使用中文版 Notebook，前 8 章完整发布
+# Jupyter Book Table of Contents — English edition
+# All 8 chapters
 
 format: jb-book
 root: index
 options:
-  numbered: false   # 使用标题内手写编号（2.1、5.1、8.1 等），关闭自动编号避免叠加
+  numbered: false
 chapters:
-  - file: notebooks/zh-Hans/Chapter_01_私钥与地址
-  - file: notebooks/zh-Hans/Chapter_02_Bitcoin_Script_基础
-  - file: notebooks/zh-Hans/Chapter_03_P2SH_脚本工程
-  - file: notebooks/zh-Hans/Chapter_04_构建_SegWit_交易
-  - file: notebooks/zh-Hans/Chapter_05_Taproot_演进
-  - file: notebooks/zh-Hans/Chapter_06_构建真实_Taproot_合约
-  - file: notebooks/zh-Hans/Chapter_07_Taproot_双叶脚本树
-  - file: notebooks/zh-Hans/Chapter_08_四叶_Taproot_脚本树
-
+  - file: notebooks/en/Chapter_01_Private_Keys
+  - file: notebooks/en/Chapter_02_Bitcoin_Script_Fundamentals
+  - file: notebooks/en/Chapter_03_P2SH_Script_Engineering
+  - file: notebooks/en/Chapter_04_Building_SegWit_Transactions
+  - file: notebooks/en/Chapter_05_Taproot_The_Evolution
+  - file: notebooks/en/Chapter_06_Building_Real_Taproot_Contracts
+  - file: notebooks/en/Chapter_07_Taproot_Dual_Leaf_Script_Tree
+  - file: notebooks/en/Chapter_08_Four_Leaf_Taproot_Script_Tree
