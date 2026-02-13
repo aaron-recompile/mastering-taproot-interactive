@@ -18,9 +18,6 @@ notebooks/
 │   ├── Chapter_01_Private_Keys.ipynb
 │   ├── Chapter_02_Bitcoin_Script.ipynb
 │   └── ...
-├── zh-Hans/                 # 中文版 Notebooks
-│   ├── Chapter_01_私钥与地址.ipynb
-│   └── ...
 └── shared/                  # 共享资源
     └── images/              # 图片资源（从 book/manuscript/resources/ 链接）
 ```

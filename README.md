@@ -15,8 +15,7 @@ This is the **interactive companion** to the book. While the [main repository](h
 
 ```
 notebooks/
-├── en/          # English notebooks (Ch 1–8)
-└── zh-Hans/     # 中文 notebooks（第 1–8 章）
+└── en/          # English notebooks (Ch 1–8)
 ```
 
 ## Live Site

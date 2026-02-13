@@ -13,7 +13,6 @@ sphinx:
       - ".ipynb_checkpoints/**"
       - "_build/**"
       - ".jupyter_cache/**"
-      - "notebooks/zh-Hans/**"
       - "book/**"
       - "scripts/**"
       - "README.md"
@@ -41,6 +40,7 @@ parse:
   myst_url_schemes: ["http", "https", "mailto"]
 
 launch_buttons:
+  binderhub_url: "https://mybinder.org"
   notebook_interface: "jupyterlab"
 
 repository:
